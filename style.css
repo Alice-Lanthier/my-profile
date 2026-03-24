@@ -85,3 +85,34 @@ a:hover {
 #introduction p {
   margin-bottom: 40px;
 }
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+.list-inline i {
+  font-size: 30px;
+}
+
+.list-inline i:hover {
+  color: black;
+}
+html {
+  scroll-behavior: smooth;
+}
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+}
